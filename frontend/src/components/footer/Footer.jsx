@@ -7,10 +7,9 @@ export default function Footer() {
 
         <div class="footer-about">
           <h4>About Us<p>-----------------------</p></h4>
-          <p><a rel="nofollow" className="link">About Travelista</a></p>
-          <p><a className="link">Meet the Team</a></p>
-          <p><a className="link">Write for Us</a></p>
-          <p><a className="link">Contact Us</a></p>
+          <p><a rel="nofollow" href="http://localhost:3000/about"className="link">About Travelista</a></p>
+          
+          <p><a className="link" href="http://localhost:3000/contact">Contact Us</a></p>
           <p><a rel="nofollow" href="https://thetravelista.com.au/page/termsandconditions" className="link">Copyright</a></p>
           <p><a rel="nofollow" href="https://thetravelista.net/disclaimer/" className="link">Privacy Policy</a></p>
         </div>

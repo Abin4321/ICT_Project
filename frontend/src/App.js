@@ -10,6 +10,7 @@ import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 import Contact from "./pages/contact/Contact";
 import About from "./pages/about/About";
+import Admin from "./pages/admin/Admin";
 function App() {
   const { user } = useContext(Context);
 
@@ -17,6 +18,7 @@ function App() {
     <Router>
       <TopBar />
       <Routes>
+      <Route path="/admin" element={<Admin />} />
         <Route path="/" element={<Home />} />
         <Route path="/register" element={user ? <Home /> : <Register />} />
         <Route path="/login" element={user ? <Home /> : <Login />} />
